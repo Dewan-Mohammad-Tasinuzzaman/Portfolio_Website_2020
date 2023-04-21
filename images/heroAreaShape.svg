@@ -1,0 +1,11 @@
+<svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" width="1061" height="1342" viewBox="0 0 1061 1342">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #0a001b;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="heroAreaShape" class="cls-1" d="M1136,105V0h784V1342h-64v-66H1726V1164h-90v47h-22v-77h-79v36h-66v-38H1303v-81h-53v-32H1147V913h-86V747H960V610H859V588h145V474H922V368h38V218h76V105h100Z" transform="translate(-859)"/>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="91" height="91" viewBox="0 0 91 91">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #4e00ff;
+        stroke-width: 1px;
+        opacity: 0.5;
+      }
+    </style>
+  </defs>
+  <circle id="biggerCirclesvg" class="cls-1" cx="45.5" cy="45.5" r="45"/>
+</svg>

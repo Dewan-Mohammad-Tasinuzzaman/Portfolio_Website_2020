@@ -1,0 +1,145 @@
+.navigation {
+    opacity: 0;
+    overflow: hidden;
+    position: fixed;
+    min-width: 100vw;
+    z-index: 99;
+    padding: 2.5%;
+    padding-left: 12rem;
+    padding-right: 11rem;
+    transition: all .3s ease-out;
+    animation: moveDown 1s ease forwards;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @media only screen and (max-width: $bp-large) {
+        padding-top: 4rem;
+        padding-left: 5rem;
+        padding-right: 3rem;
+    }
+
+    //ILLUSTRATION BOX
+    &__illustration {
+        width: 8rem;
+        height: 8rem;
+    }
+
+    &__menu {
+        
+    }
+
+    //LIST
+    &__list {
+        list-style: none;
+
+        display: flex;
+
+        //ITEMS
+        &--items {
+            padding: 1rem 1rem;
+            position: relative;
+        }
+
+        &--items::before {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: .4rem;
+            background-color: var(--neon-green);
+            z-index: 1;
+            transform: scaleX(0);
+            transform-origin: left;
+            transition: transform .15s ease-in-out,
+                        height .25s .15s,
+                        background-color .2s;
+        }
+        &--items:hover::before {
+            transform: scaleX(1);
+            height: 100%;
+        }
+        &--items:active::before {
+            background-color: var(--neon-green-clicked);
+        }
+
+        //ACTIVE PAGE
+        &--items--active {
+            position: relative;
+        }
+        &--items--active::before {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: .4rem;
+            transform: scaleX(1);
+            background-color: var(--neon-green);
+        }
+
+        //NAV-LINKS
+        &--links,
+        &--links:link,
+        &--links:visited {
+            position: relative;
+            width: 100%;
+            z-index: 10;
+            text-decoration: none;
+            color: #fff;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 400;
+            font-size: 2rem;
+            padding: 2rem 2rem;
+            transition: color .2s .2s;
+
+            @media only screen and (max-width: $bp-large) {
+                font-size: 2.5rem;
+            }
+            @media only screen and (max-width: $bp-mid) {
+                font-size: 2rem;
+            }
+        }
+        &--links:hover {
+            color: black !important;
+        }
+
+        //ACTIVE PAGE
+        &--links--active {
+            color: var(--neon-green) !important;
+        }
+        &--items:hover &--links:not(:hover) {
+            color: black !important;
+        }
+    }
+}
+//SVG
+#myIllustrationCircular {
+    width: 100%;
+    height: 100%;
+}
+.myIllustrationBackgroundFillScrollnav {
+    fill: rgb(33, 33, 33) !important;
+
+    @media only screen and (max-width: $bp-large) {
+        fill: rgb(21, 21, 21) !important;
+    }
+}
+
+//After Scrolling
+.nav-scrolled {
+    background-color: rgba(21, 21, 21, 0.95);
+    padding-top: 0;
+    padding-bottom: 0;
+
+    @media only screen and (max-width: $bp-large) {
+        background-color: rgba(6, 0, 17, .96);
+        padding-left: 5rem;
+        padding-right: 3rem;
+    }
+}
+.nav-scrolled--menuItems {
+    padding: 3.3rem 1rem;
+}

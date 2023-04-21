@@ -1,0 +1,27 @@
+<svg id="Logo_copy" data-name="Logo copy" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="127.809" height="127.809" viewBox="0 0 1273 1273">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #050505;
+        stroke-width: 1px;
+        stroke: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        fill-rule: evenodd;
+        fill: url(#linear-gradient-2);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="1151.523" y1="1272.5" x2="121.477" y2="0.5" gradientUnits="userSpaceOnUse">
+      <stop offset="-0.165" stop-color="#00c2ff"/>
+      <stop offset="0.159" stop-color="#00c2ff"/>
+      <stop offset="1.165" stop-color="#3c00ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="749" y1="1107" x2="749" y2="392" gradientUnits="userSpaceOnUse">
+      <stop offset="0.255" stop-color="#00eaff"/>
+      <stop offset="0.745" stop-color="#00ffd2"/>
+    </linearGradient>
+  </defs>
+  <rect id="Rounded_Rectangle_2" data-name="Rounded Rectangle 2" class="cls-1" x="0.5" y="0.5" width="1272" height="1272" rx="210" ry="210"/>
+  <path id="T" class="cls-2" d="M698.646,1107H799.327V479.1H1133.99V391.988h-770V479.1h334.66V1107Z" transform="translate(-113.5 -113.5)"/>
+</svg>

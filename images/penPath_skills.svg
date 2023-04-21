@@ -1,0 +1,30 @@
+<svg id="PenPath" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 159.88 116.47">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke: #00d7bf;
+        stroke-width: 1.2px;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <title>PenPath</title>
+  <path class="cls-1" d="M158.25,8.6s-1.81,44.81-52.67,73.74S7.77,92.94,7.77,92.94" transform="translate(-2.66 -1.88)"/>
+  <path class="cls-1" d="M53,112.92,154,53.81" transform="translate(-2.66 -1.88)"/>
+  <circle class="cls-2" cx="48.85" cy="112.07" r="3.4"/>
+  <circle id="Ellipse_3_copy" data-name="Ellipse 3 copy" class="cls-2" cx="154.86" cy="49.77" r="3.4"/>
+  <path class="cls-3" d="M113.88,76l-.95,6.17-6.17-.94.94-6.18Z" transform="translate(-2.66 -1.88)"/>
+  <path id="Rectangle_1_copy" data-name="Rectangle 1 copy" class="cls-3" d="M13.93,91.54l-3.22,6.71L4,95l3.21-6.72Z" transform="translate(-2.66 -1.88)"/>
+  <path id="Rectangle_1_copy_2" data-name="Rectangle 1 copy 2" class="cls-3" d="M153,4l7.38-1,1,7.37-7.37,1Z" transform="translate(-2.66 -1.88)"/>
+</svg>

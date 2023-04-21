@@ -1,0 +1,11 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22.45 48.31">
+  <defs>
+    <style>
+      .logo-color-default {
+        fill: #212121;
+      }
+    </style>
+  </defs>
+  <title>Facebook_logo</title>
+  <path class="logo-color-default" d="M40.43,21.74H32.78v-5a2,2,0,0,1,2.13-2.33h5.4V6.13l-7.43,0c-8.25,0-10.13,6.17-10.13,10.12v5.52H18v8.53h4.77V54.41h10V30.27h6.78Z" transform="translate(-17.98 -6.1)"/>
+</svg>

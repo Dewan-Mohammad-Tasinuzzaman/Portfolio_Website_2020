@@ -1,0 +1,132 @@
+//BREAK POINTS
+$bp-massive: 480em; //7680px Width
+
+$bp-moreHuge: 240em; //3840px Width
+
+$bp-huge: 120em; //1920px Width
+
+$bp-largest: 75em; //1200px Width
+
+$bp-large: 64.0625em; //1025px width
+
+$bp-mid: 56.25em; //900px width
+
+$bp-small: 46.875em; //750px width
+
+$bp-small2: 17.5em; //280px width
+
+
+//SPECIFIC BREAKPOINTS - FOR LANDSCAPE MODES
+$bp-823: 51.4375em;
+$bp-812: 50.75em;
+$bp-736: 46em;
+$bp-731: 45.6875em;
+$bp-667: 41.6875em;
+$bp-653: 40.8125em;
+$bp-640: 40em;
+$bp-600: 37.5em;
+$bp-568: 35.5em;
+$bp-320: 20em;
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    font-size: 62.5%; //1rem = 10px, 10px/16px
+    
+    @media only screen and (max-width: $bp-largest) {
+        font-size: 58%;
+    }
+    @media only screen and (max-width: $bp-mid) {
+        font-size: 46%;
+    }
+    @media only screen and (max-width: $bp-small) {
+        font-size: 32%;
+    }
+    @media only screen and (max-width: $bp-small2) {
+        font-size: 28%;
+    }
+    @media only screen and (min-width: $bp-huge) {
+        font-size: 80%;
+    }
+    @media only screen and (min-width: $bp-moreHuge) {
+        font-size: 177%;
+    }
+    @media only screen and (min-width: $bp-massive) {
+        font-size: 327%;
+    }
+    @media only screen and (width: $bp-320) {
+        font-size: 29%;
+    }
+    @media only screen and (width: $bp-812) {
+        font-size: 27%;
+    }
+    @media only screen and (width: $bp-823) {
+        font-size: 30%;
+    }
+}
+
+body {
+    position: relative;
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1.6rem;
+    line-height: 2;
+    color: var(--grey-dark);
+}
+
+.rellax {
+    transition: transform 1s cubic-bezier(0.16, 1, 0.3, 1);
+
+    @media only screen and (max-width: $bp-largest) {
+        transition: none;
+    }
+}
+
+
+//CUSTOM HIGHLIGHT
+::selection {
+    background: var(--neon-green);
+    color: white;
+}
+::-moz-selection {
+    background: var(--neon-green);
+    color: white;
+}
+
+//CUSTOM SCROLL-BAR
+/* width */
+::-webkit-scrollbar {
+    width: 1rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #080016;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(to bottom, #001a14 , #00cfa9);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background-image: linear-gradient(to bottom, #008b72 , #18ffd5);
+}
+
+::-webkit-scrollbar-thumb:active {
+    background-image: linear-gradient(to bottom, #001a14 , #007761);
+}

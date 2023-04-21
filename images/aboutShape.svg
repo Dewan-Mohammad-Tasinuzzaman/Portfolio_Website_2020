@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="587" height="564.16" viewBox="0 0 587 564.16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #0a001b;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="aboutShape" class="cls-1" d="M296.3,1766.37H192v132.75h65.311v53.68H300.2v160.07H418.15v-80.03H529.276v36.11H575.09v-75.16h9.748L585,2041H700l-0.137-150.67L779,1890v-98l-49.894-.25v-114.2H664.771v-69.3H523.427v-59.54H498.082v75.16H369.411v-25.38h-93.58v113.22H328.47v54.66H296.3Z" transform="translate(-192 -1548.72)"/>
+</svg>

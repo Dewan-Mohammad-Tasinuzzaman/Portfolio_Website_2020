@@ -1,0 +1,24 @@
+<svg id="rockDesign" xmlns="http://www.w3.org/2000/svg" width="149.5" height="254.62" viewBox="0 0 149.5 254.62">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #5c00ff;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #00ffd2;
+      }
+
+      .cls-3 {
+        fill: #2a1848;
+      }
+    </style>
+  </defs>
+  <path id="Surface" class="cls-1" d="M1718.92,3227.02l64.05-29.09,84.77,67.83L1764,3255.87Z" transform="translate(-1718.75 -3197.94)"/>
+  <path id="GlowSide" class="cls-2" d="M1764.28,3255.32l-45.54-27.89,0.58,224.55Z" transform="translate(-1718.75 -3197.94)"/>
+  <path id="DarkSide" class="cls-3" d="M1868.26,3265.54l-149.18,187.03,44.89-197.24Z" transform="translate(-1718.75 -3197.94)"/>
+</svg>

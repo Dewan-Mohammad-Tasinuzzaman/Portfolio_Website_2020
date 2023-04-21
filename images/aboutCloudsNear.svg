@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="379" height="428" viewBox="0 0 379 428">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #00ffe9;
+        fill-rule: evenodd;
+        opacity: 0.35;
+      }
+    </style>
+  </defs>
+  <path id="aboutCloudsNear" class="cls-1" d="M386,2049h86a3,3,0,0,1,3,3v11a3,3,0,0,1-3,3H386a3,3,0,0,1-3-3v-11A3,3,0,0,1,386,2049Zm228-411H714a3,3,0,0,1,3,3v14a3,3,0,0,1-3,3H614a3,3,0,0,1-3-3v-14A3,3,0,0,1,614,1638Zm-37,122h59a3,3,0,0,1,3,3v8a3,3,0,0,1-3,3H577a3,3,0,0,1-3-3v-8A3,3,0,0,1,577,1760ZM341,1937h42a3,3,0,0,1,3,3v4a3,3,0,0,1-3,3H341a3,3,0,0,1-3-3v-4A3,3,0,0,1,341,1937Z" transform="translate(-338 -1638)"/>
+</svg>

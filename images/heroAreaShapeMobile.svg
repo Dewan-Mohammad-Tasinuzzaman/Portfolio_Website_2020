@@ -1,0 +1,11 @@
+<svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" width="556" height="944.563" viewBox="0 0 556 944.563">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #0a001b;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="heroAreaShapeMobile" class="cls-1" d="M556,764.625v0.1H466.025v89.914h-85.47v89.914H366.829V815.465H295.708v73h-66.13V854.635H136V786.977H65.5V697.954H-0.006V0.008H556V764.625Z"/>
+</svg>

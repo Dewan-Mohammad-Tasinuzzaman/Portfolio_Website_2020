@@ -1,0 +1,47 @@
+<svg id="Logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="130.673" height="130.673" viewBox="0 0 1301.52 1301.52">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #050505;
+        stroke-width: 26.52px;
+        stroke: url(#linear-gradient);
+        filter: url(#filter);
+      }
+
+      .cls-2 {
+        fill-rule: evenodd;
+        fill: url(#linear-gradient-2);
+        filter: url(#filter-2);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="1166.997" y1="1288.26" x2="134.523" y2="13.26" gradientUnits="userSpaceOnUse">
+      <stop offset="-0.165" stop-color="#00c2ff"/>
+      <stop offset="0.159" stop-color="#00c2ff"/>
+      <stop offset="1.165" stop-color="#3c00ff"/>
+    </linearGradient>
+    <filter id="filter" x="13.26" y="13.26" width="1275" height="1275" filterUnits="userSpaceOnUse">
+      <feGaussianBlur result="blur" stdDeviation="9.899" in="SourceAlpha"/>
+      <feFlood result="flood" flood-opacity="0.5"/>
+      <feComposite result="composite" operator="out" in2="blur"/>
+      <feOffset result="offset"/>
+      <feComposite result="composite-2" operator="in" in2="SourceAlpha"/>
+      <feBlend result="blend" mode="multiply" in2="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-2" x1="749" y1="1107" x2="749" y2="392" gradientUnits="userSpaceOnUse">
+      <stop offset="0.255" stop-color="#00eaff"/>
+      <stop offset="0.745" stop-color="#00ffd2"/>
+    </linearGradient>
+    <filter id="filter-2" x="319" y="347" width="861" height="806" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="6.782"/>
+      <feFlood result="flood" flood-opacity="0.5"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g style="fill: #050505; filter: url(#filter)">
+    <rect id="Rounded_Rectangle_1" data-name="Rounded Rectangle 1" class="cls-1" x="13.26" y="13.26" width="1275" height="1275" rx="205.5" ry="205.5" style="stroke: inherit; filter: none; fill: inherit"/>
+  </g>
+  <use xlink:href="#Rounded_Rectangle_1" style="stroke: url(#linear-gradient); filter: none; fill: none"/>
+  <path id="T" class="cls-2" d="M698.646,1107H799.327V479.1H1133.99V391.988h-770V479.1h334.66V1107Z" transform="translate(-99.74 -99.74)"/>
+</svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="719.69" height="581" viewBox="0 0 719.69 581">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: 0.25;
+      }
+
+      .cls-2 {
+        fill: #5b00ff;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        fill: #00ffe7;
+      }
+
+      .cls-4 {
+        fill: #2a1848;
+      }
+    </style>
+  </defs>
+  <g id="farRubble" class="cls-1">
+    <g id="midRubble2_copy" data-name="midRubble2 copy">
+      <path id="Shape_3_copy_3" data-name="Shape 3 copy 3" class="cls-2" d="M1182.85,365.788l11.55-6.143,24.51-1.288-9.67,6.047-15.16,2.64Z" transform="translate(-1018 -294.25)"/>
+      <path id="Shape_2_copy_3" data-name="Shape 2 copy 3" class="cls-3" d="M1196.04,365.1l-13.19.691,14.42,14.011,5.49,3.4-4.83-18.2Z" transform="translate(-1018 -294.25)"/>
+      <path id="Shape_1_copy_3" data-name="Shape 1 copy 3" class="cls-4" d="M1219.09,358.3l-16.29,25.052-6.76-18.252Z" transform="translate(-1018 -294.25)"/>
+    </g>
+    <g id="farRubble3">
+      <path id="Shape_3_copy_5" data-name="Shape 3 copy 5" class="cls-2" d="M1702.51,303.218l17.32,16.191,17.27,44.179-16.72-15.971-13.43-24.425Z" transform="translate(-1018 -294.25)"/>
+      <path id="Shape_2_copy_5" data-name="Shape 2 copy 5" class="cls-3" d="M1711.45,325.421l-8.94-22.2-15.53,32.943-2.61,11.407,28.35-18.98Z" transform="translate(-1018 -294.25)"/>
+      <path id="Shape_1_copy_5" data-name="Shape 1 copy 5" class="cls-4" d="M1737.7,363.806l-53.13-15.657,26.88-22.728Z" transform="translate(-1018 -294.25)"/>
+    </g>
+    <g id="farRubble2">
+      <path id="Shape_3_copy_7" data-name="Shape 3 copy 7" class="cls-2" d="M1042.05,294.246l-3.52,13.581L1023,328l2.96-12.493,8.07-13.639Z" transform="translate(-1018 -294.25)"/>
+      <path id="Shape_2_copy_7" data-name="Shape 2 copy 7" class="cls-3" d="M1034,304.873l8.05-10.627L1027,295l-8.86,1.05,14.71,10.343Z" transform="translate(-1018 -294.25)"/>
+      <path id="Shape_1_copy_7" data-name="Shape 1 copy 7" class="cls-4" d="M1022.45,329.091L1018,295l14,11Z" transform="translate(-1018 -294.25)"/>
+    </g>
+    <g id="farRubble1">
+      <path id="Shape_3_copy_8" data-name="Shape 3 copy 8" class="cls-2" d="M1587.01,833.138l-4.25,16.407L1563.15,874.4l4.43-15.572,9.74-16.488Z" transform="translate(-1018 -294.25)"/>
+      <path id="Shape_2_copy_8" data-name="Shape 2 copy 8" class="cls-3" d="M1577.29,845.983l9.72-12.845-21.45,1.395-7.44.785,17.78,12.5Z" transform="translate(-1018 -294.25)"/>
+      <path id="Shape_1_copy_8" data-name="Shape 1 copy 8" class="cls-4" d="M1563.33,875.234l-5.01-40.7,19.33,10.873Z" transform="translate(-1018 -294.25)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="43.63" height="64.72" viewBox="0 0 43.63 64.72">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #00ffb9;
+        opacity: 0.35;
+      }
+    </style>
+  </defs>
+  <rect id="leftScreenAnimation" class="cls-1" width="43.63" height="64.72" rx="6" ry="6"/>
+</svg>

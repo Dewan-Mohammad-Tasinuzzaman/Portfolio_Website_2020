@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="938" height="829" viewBox="0 0 938 829">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #5a00ff;
+        fill-rule: evenodd;
+        opacity: 0.13;
+      }
+    </style>
+  </defs>
+  <path id="cloudsFar2" class="cls-1" d="M1094,266h227v36H1094V266ZM982,634h143v26H982V634Zm499-20h108v19H1481V614Zm238,438h202v43H1719v-43Z" transform="translate(-982 -266)"/>
+</svg>

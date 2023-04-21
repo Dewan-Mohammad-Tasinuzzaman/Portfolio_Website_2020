@@ -1,0 +1,35 @@
+<svg id="AiBox" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="55.875" height="54.37" viewBox="0 0 55.875 54.37">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #35ffc8;
+      }
+
+      .cls-1, .cls-2, .cls-4 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #75feff;
+      }
+
+      .cls-3 {
+        fill: #002622;
+      }
+
+      .cls-4 {
+        fill: #58feff;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="577.156" y="2701.31" width="20.907" height="16.47" filterUnits="userSpaceOnUse">
+      <feImage preserveAspectRatio="none" x="577.156" y="2701.31" width="20.907" height="16.47" result="image" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMjAuOTA3IiBoZWlnaHQ9IjE2LjQ3IiB2aWV3Qm94PSIwIDAgMjAuOTA3IDE2LjQ3Ij4KICA8ZGVmcz4KICAgIDxzdHlsZT4KICAgICAgLmNscy0xIHsKICAgICAgICBmaWxsOiB1cmwoI2xpbmVhci1ncmFkaWVudCk7CiAgICAgIH0KICAgIDwvc3R5bGU+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImxpbmVhci1ncmFkaWVudCIgeDE9IjEwLjQ1NCIgeDI9IjEwLjQ1NCIgeTI9IjE2LjQ3IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMC4wMTUiIHN0b3AtY29sb3I9IiM1OGZlZmYiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIwLjk4NSIgc3RvcC1jb2xvcj0iIzAwZmZhMiIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPHJlY3QgY2xhc3M9ImNscy0xIiB3aWR0aD0iMjAuOTA3IiBoZWlnaHQ9IjE2LjQ3Ii8+Cjwvc3ZnPgo="/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path id="Side" class="cls-1" d="M610.187,2688.27l11.709-10.39h0.781v44.75l-11.709,9.59h-0.781v-43.95Z" transform="translate(-567.031 -2677.88)"/>
+  <path id="Top" class="cls-2" d="M567.525,2688.52l11.867-10.28H622.9l-11.866,10.28H567.525Z" transform="translate(-567.031 -2677.88)"/>
+  <rect id="Front" class="cls-3" y="9.53" width="44.875" height="44.84" rx="2" ry="2"/>
+  <path id="Ai" class="cls-4" d="M590.462,2717.79h2.9l-6.75-14.95h-2.734l-6.728,14.95h2.862l1.474-3.46h7.476Zm-8.031-5.64,2.8-6.54,2.819,6.54h-5.617Zm12.58,5.64h2.67v-11.41h-2.67v11.41Zm1.346-13.29a1.665,1.665,0,0,0,1.228-.48,1.6,1.6,0,0,0,.48-1.18,1.412,1.412,0,0,0-.491-1.1,1.775,1.775,0,0,0-1.217-.44,1.7,1.7,0,0,0-1.218.46,1.507,1.507,0,0,0-.491,1.14,1.477,1.477,0,0,0,.491,1.14,1.7,1.7,0,0,0,1.218.46h0Z" transform="translate(-567.031 -2677.88)"/>
+</svg>

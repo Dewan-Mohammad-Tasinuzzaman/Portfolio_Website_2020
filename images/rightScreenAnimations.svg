@@ -1,0 +1,20 @@
+<svg id="rightScreenAnimations" xmlns="http://www.w3.org/2000/svg" width="61.91" height="28.13" viewBox="0 0 61.91 28.13">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #00fff6;
+        fill-rule: evenodd;
+        opacity: 0.4;
+      }
+
+      .cls-2 {
+        fill: #00fff5;
+        opacity: 0.46;
+      }
+    </style>
+  </defs>
+  <path id="Rounded_Rectangle_3" data-name="Rounded Rectangle 3" class="cls-1" d="M1373.37,3278.81h50.5a5,5,0,0,1,5,5v4.06a4.989,4.989,0,0,1-5,5h-50.5a5,5,0,0,1-5-5v-4.06A5,5,0,0,1,1373.37,3278.81Z" transform="translate(-1366.97 -3271.78)"/>
+  <rect id="Rounded_Rectangle_4" data-name="Rounded Rectangle 4" class="cls-2" x="11.25" width="16.87" height="4.22" rx="1.5" ry="1.5"/>
+  <rect id="Rounded_Rectangle_4_copy" data-name="Rounded Rectangle 4 copy" class="cls-2" x="42.19" y="23.91" width="14.09" height="4.22" rx="1.5" ry="1.5"/>
+  <rect id="Rounded_Rectangle_4_copy_2" data-name="Rounded Rectangle 4 copy 2" class="cls-2" y="2.81" width="4.22" height="2.82" rx="1" ry="1"/>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1007" height="822" viewBox="0 0 1007 822">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #5a00ff;
+        fill-rule: evenodd;
+        opacity: 0.3;
+      }
+    </style>
+  </defs>
+  <path id="cloudsNear2" class="cls-1" d="M1219,928h293v46H1219V928Zm490-695h193v35H1709V233ZM895,152h278v42H895V152Z" transform="translate(-895 -152)"/>
+</svg>

@@ -1,0 +1,56 @@
+<svg id="midRubble" xmlns="http://www.w3.org/2000/svg" width="917.59" height="516.437" viewBox="0 0 917.59 516.437">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: 0.5;
+      }
+
+      .cls-2 {
+        fill: #5b00ff;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-6, .cls-7 {
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        fill: #22ffe9;
+      }
+
+      .cls-4 {
+        fill: #291847;
+      }
+
+      .cls-5 {
+        opacity: 0.6;
+      }
+
+      .cls-6 {
+        fill: #00ffe7;
+      }
+
+      .cls-7 {
+        fill: #2a1848;
+      }
+
+      .cls-8 {
+        opacity: 0.7;
+      }
+    </style>
+  </defs>
+  <g id="midRubble3" class="cls-1">
+    <path id="Shape_3_copy_2" data-name="Shape 3 copy 2" class="cls-2" d="M1790,474l129,40-43.72.718L1823.99,497.3Z" transform="translate(-1002.41 -382.813)"/>
+    <path id="Shape_2_copy_2" data-name="Shape 2 copy 2" class="cls-3" d="M1832.85,494.247l-42.42-20.474,26.05,71.22,12.57,20.724,9.86-68.548Z" transform="translate(-1002.41 -382.813)"/>
+    <path id="Shape_1_copy_2" data-name="Shape 1 copy 2" class="cls-4" d="M1920.05,514.337L1828,566l4.85-71.752Z" transform="translate(-1002.41 -382.813)"/>
+  </g>
+  <g id="midRubble2" class="cls-5">
+    <path id="Shape_3_copy_3" data-name="Shape 3 copy 3" class="cls-2" d="M1182.83,897.148l8.56-22.1,32.05-30.788L1217.35,864l-17.64,21.573Z" transform="translate(-1002.41 -382.813)"/>
+    <path id="Shape_2_copy_3" data-name="Shape 2 copy 3" class="cls-6" d="M1200.09,880.573l-17.26,16.575,36.36,2.115,11.56-1.84-28.19-19.215Z" transform="translate(-1002.41 -382.813)"/>
+    <path id="Shape_1_copy_3" data-name="Shape 1 copy 3" class="cls-7" d="M1223.62,843.957l7.35,53.629-30.88-17.013Z" transform="translate(-1002.41 -382.813)"/>
+  </g>
+  <g id="midRubble1" class="cls-8">
+    <path id="Shape_3_copy_4" data-name="Shape 3 copy 4" class="cls-2" d="M1009.11,382.809l29.95,14.757,41.41,54.091-28.8-14.281-28.23-28.306Z" transform="translate(-1002.41 -382.813)"/>
+    <path id="Shape_2_copy_4" data-name="Shape 2 copy 4" class="cls-6" d="M1030.39,410.092l-21.28-27.283-4.1,52.4-1.51,19.234,29.93-40.454Z" transform="translate(-1002.41 -382.813)"/>
+    <path id="Shape_1_copy_4" data-name="Shape 1 copy 4" class="cls-4" d="M1081.64,452.136l-79.22,1.9,27.97-43.94Z" transform="translate(-1002.41 -382.813)"/>
+  </g>
+</svg>

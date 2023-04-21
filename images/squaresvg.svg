@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="458" height="458" viewBox="0 0 458 458">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #4e00ff;
+        stroke-width: 1px;
+        fill-rule: evenodd;
+        opacity: 0.5;
+      }
+    </style>
+  </defs>
+  <path id="squaresvg" class="cls-1" d="M1341.01,3879.66l358.33-98.65,98.65,358.33-358.33,98.65Z" transform="translate(-1340.5 -3780.5)"/>
+</svg>

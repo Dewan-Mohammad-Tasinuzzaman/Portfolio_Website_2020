@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="479" height="295" viewBox="0 0 479 295">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #00ffe9;
+        fill-rule: evenodd;
+        opacity: 0.2;
+      }
+    </style>
+  </defs>
+  <path id="aboutCloudsFar" class="cls-1" d="M254,1881h87a3,3,0,0,1,3,3v4a3,3,0,0,1-3,3H254a3,3,0,0,1-3-3v-4A3,3,0,0,1,254,1881Zm354,74H727a3,3,0,0,1,3,3v3a3,3,0,0,1-3,3H608a3,3,0,0,1-3-3v-3A3,3,0,0,1,608,1955ZM339,1669h57a3,3,0,0,1,3,3v4a3,3,0,0,1-3,3H339a3,3,0,0,1-3-3v-4A3,3,0,0,1,339,1669Z" transform="translate(-251 -1669)"/>
+</svg>

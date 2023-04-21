@@ -1,0 +1,246 @@
+// FOOTER 
+.footer {
+    position: relative;
+    height: 80rem;
+    width: 100vw;
+
+    @media only screen and (max-width: $bp-largest) {
+        padding-top: 0;
+        margin-top: 50rem;
+        height: 106rem;
+    }
+    @media only screen and (max-width: $bp-large) {
+        margin-top: 60rem;
+    }
+    @media only screen and (max-width: $bp-small) {
+        padding-top: 0;
+        margin-top: 80rem;
+        height: 17rem;
+    }
+    @media only screen and (max-width: $bp-small2) {
+        margin-top: 20rem;
+    }
+    @media only screen and (min-width: $bp-huge) {
+        height: 80rem;
+    }
+    @media only screen and (min-width: $bp-moreHuge) {
+        padding-top: 0;
+        margin-top: 40rem;
+    }
+    @media only screen and (min-width: $bp-massive) {
+        padding-top: 0;
+        margin-top: 60rem;
+    }
+    @media only screen and (width: $bp-568) {
+        padding-top: 0;
+        margin-top: 120rem;
+        height: 30rem;
+    }
+    @media only screen and (width: $bp-600) {
+        padding-top: 0;
+        margin-top: 110rem;
+        height: 30rem;
+    }
+    @media only screen and (width: $bp-640) {
+        padding-top: 0;
+        margin-top: 120rem;
+        height: 33rem;
+    }
+    @media only screen and (width: $bp-653) {
+        padding-top: 0;
+        margin-top: 130rem;
+        height: 35rem;
+    }
+    @media only screen and (width: $bp-667) {
+        padding-top: 0;
+        margin-top: 140rem;
+        height: 40rem;
+    }
+    @media only screen and (width: $bp-731) {
+        padding-top: 0;
+        margin-top: 130rem;
+        height: 40rem;
+    }
+    @media only screen and (width: $bp-736) {
+        padding-top: 0;
+        margin-top: 160rem;
+        height: 40rem;
+    }
+    @media only screen and (width: $bp-812) {
+        padding-top: 0;
+        margin-top: 40rem;
+        height: 180rem;
+    }
+    @media only screen and (width: $bp-823) {
+        padding-top: 0;
+        margin-top: 60rem;
+        height: 130rem;
+    }
+
+    &__illustrations {
+        position: relative;
+        height: 100%;
+        width: 100%;
+
+        // @media only screen and (max-width: $bp-largest) {
+        //     width: 100%;
+        // }
+
+        &--backShape {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            animation: slightFloat2 1.5s ease-in-out infinite;
+
+            @media only screen and (max-width: $bp-largest) {
+                display: none;
+            }
+        }
+        &--backShape-mobile {
+            @media only screen and (min-width: $bp-largest) {
+                display: none;
+            }
+
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            animation: slightFloat2 1.5s ease-in-out infinite;
+        }
+
+        &--midShape {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            animation: slightFloat3 1.5s ease-in-out infinite;
+
+            @media only screen and (max-width: $bp-largest) {
+                display: none;
+            }
+        }
+        &--midShape-mobile {
+            @media only screen and (min-width: $bp-largest) {
+                display: none;
+            }
+
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            animation: slightFloat3 1.5s ease-in-out infinite;
+        }
+        
+        &--frontShape {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+
+            @media only screen and (max-width: $bp-largest) {
+                display: none;
+            }
+        }
+        &--frontShape-mobile {
+            @media only screen and (min-width: $bp-largest) {
+                display: none;
+            }
+
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+        }
+        
+    }
+
+
+    &__content {
+        position: absolute;
+        bottom: 50%;
+        left: 50%;
+        transform: translate(-50%, 500%);
+
+        @media only screen and (max-width: $bp-largest) {
+            top: 30%;
+            transform: translate(-50%, -50%);
+        }
+        @media only screen and (min-width: $bp-huge) {
+            transform: translate(-50%, 500%);
+        }
+        @media only screen and (max-width: $bp-small) {
+            top: -140%;
+        }
+        @media only screen and (max-width: $bp-small2) {
+            top: -120%;
+        }
+    }
+
+    &__list {
+        list-style: none;
+        list-style-type: none;
+        text-decoration: none;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 2.6rem;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        @media only screen and (max-width: $bp-largest) {
+            flex-direction: column;
+            font-size: 4rem;
+        }
+        @media only screen and (max-width: $bp-small) {
+            font-size: 3rem;
+        }
+
+        &--items {
+            transition: all .3s ease-out;
+            &:not(:first-child) {
+                margin-left: 6rem;
+
+                @media only screen and (max-width: $bp-largest) {
+                    margin-left: 0;
+                    margin-top: 4rem;
+                }
+            }
+        }
+        &--links {
+            color: white;
+            letter-spacing: .1rem;
+            padding: 1rem 1rem;
+            transition: all .3s ease-out;
+        }
+        &--items:hover {
+            transform: scale(1.2);
+        }
+        &--links:hover {
+            color: black;
+            background-color: var(--neon-blue);
+            letter-spacing: .2rem;
+        }
+        &--links:active {
+            color: rgb(128, 128, 128);
+            background-color: var(--neon-blue-clicked);
+            letter-spacing: .2rem;
+        }
+        &--items:active {
+            transform: scale(.9);
+        }
+    }
+}
+
+.copyright {
+    text-align: center;
+    background-color: var(--neon-blue);
+    padding: .8rem 0;
+
+    &__text {
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(22, 22, 22);
+        font-size: 2rem;
+        font-weight: 500;
+    }
+}

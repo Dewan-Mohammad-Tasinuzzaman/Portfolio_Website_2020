@@ -1,0 +1,31 @@
+<svg id="nearRubble" xmlns="http://www.w3.org/2000/svg" width="980.284" height="310.594" viewBox="0 0 980.284 310.594">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #5b00ff;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #00ffe7;
+      }
+
+      .cls-3 {
+        fill: #291847;
+      }
+    </style>
+  </defs>
+  <g id="nearRubble2">
+    <path class="cls-1" d="M1113.23,739.783l-50.93,71.092L912.416,889.964l39.407-65.008,86.137-60.2Z" transform="translate(-912.406 -656.844)"/>
+    <path class="cls-2" d="M1032.52,782.369l80.71-42.586-98.86-25.542-88.807-22.833L1021,788.453Z" transform="translate(-912.406 -656.844)"/>
+    <path class="cls-3" d="M913.4,889.308l12.544-198.656,106.578,91.717Z" transform="translate(-912.406 -656.844)"/>
+  </g>
+  <g id="nearRubble1">
+    <path id="Shape_3_copy" data-name="Shape 3 copy" class="cls-1" d="M1754.58,656.845l78.65,88.686,59.45,221.9L1818.61,895.8l-53.66-131.979Z" transform="translate(-912.406 -656.844)"/>
+    <path id="Shape_2_copy" data-name="Shape 2 copy" class="cls-2" d="M1786.6,776.324l-32.02-119.479-88.12,174.139-32.26,59.342,156.97-96.932Z" transform="translate(-912.406 -656.844)"/>
+    <path id="Shape_1_copy" data-name="Shape 1 copy" class="cls-3" d="M1892.57,967L1632.9,889.277l155.45-113.054Z" transform="translate(-912.406 -656.844)"/>
+  </g>
+</svg>

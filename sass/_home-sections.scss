@@ -1,0 +1,1182 @@
+//Overall Styles- Home
+
+// HERO AREA
+.hero-container {
+    height: 100vh;
+    z-index: 1;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @media only screen and (max-width: $bp-large) {
+        display: block;
+        position: relative;
+    }
+}
+//HEADER
+.hero-header {
+    flex: 0 0 50%;
+    padding-bottom: 4rem;
+
+    @media only screen and (max-width: $bp-large) {
+        display: none;
+    }
+
+    &__text {
+        margin-left: 12rem;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 300;
+        font-size: 3rem;
+        line-height: 2;
+        color: var(--grey-dark-2);
+        margin-bottom: 2rem;
+    }
+
+    &__text-smaller {
+        font-family: 'Montserrat', sans-serif;
+        line-height: 2.7;
+    }
+    &__text-bigger {
+
+    }
+    #hero-header__tasinZaman {
+        max-width: 72%;
+
+        @media only screen and (min-width: $bp-moreHuge) {
+            transform: scale(2.5);
+            margin-left: 22%;
+        }
+        @media only screen and (min-width: $bp-massive) {
+            transform: scale(4.5);
+            margin-left: 25%;
+        }
+    }
+
+    &__text-typewriter {
+        line-height: 2;
+        position: relative;
+
+        @media only screen and (min-width: $bp-moreHuge) {
+            line-height: 3;
+        }
+    }
+    &__text-typewriter::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: -8px;
+        width: 1px;
+        height: 4rem;
+        border-right: 2px solid rgb(104, 104, 104);
+
+        animation: blink .9s ease-in-out infinite;
+    }
+}
+.btn-primary {
+
+    position: relative;
+    z-index: 3;
+    display: inline-block;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 1.9rem;
+    padding: 1.2rem 7rem;
+    border-radius: .5rem;
+    color: white;
+    transform: scale(1);
+
+    transition: all .35s cubic-bezier(0.34, 1.56, 0.64, 1);
+
+    &:hover {
+        color: black;
+        letter-spacing: .15rem;
+    }
+    &:active {
+        color: rgb(133, 133, 133);
+    }
+}
+
+//HERO-HEADER FOR MOBILE
+.hero-header-MOBILE {
+    @media only screen and (min-width: $bp-large) {
+        display: none;
+    }
+
+    position: absolute;
+    top: 8%;
+    left: 50%;
+    width: 80%;
+    z-index: 5;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+    &__text {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 300;
+        font-size: 6rem;
+        line-height: 1.75;
+        color: white;
+        margin-bottom: 3rem;
+    }
+
+    &__text-smaller {
+        font-size: 4.5rem;
+        font-family: 'Montserrat', sans-serif;
+        line-height: 3.75;
+    }
+    &__text-bigger {
+
+    }
+    #hero-header-MOBILE__tasinZaman {
+        width: 100%;
+        height: 100%;
+    }
+
+    &__text-typewriter {
+        line-height: 1.75;
+    }
+}
+.btn-primary-MOBILE {
+
+    position: relative;
+    z-index: 3;
+    display: inline-block;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 2.9rem;
+    padding: 1.2rem 7rem;
+    border-radius: .5rem;
+    color: rgb(26, 26, 26);
+    transform: scale(1);
+    transition: all .35s cubic-bezier(0.34, 1.56, 0.64, 1);
+    &:hover {
+        color: rgb(54, 54, 54);
+        letter-spacing: .15rem;
+    }
+    &:active {
+        color: rgb(121, 121, 121);
+    }
+}
+
+//ILLUSTRATIONS HERO
+.hero-background {
+    flex: 0 0 50%;
+    height: 100vh;
+    position: relative;
+
+    @media only screen and (max-width: $bp-large) {
+        flex: none;
+        width: 100vw;
+    }
+
+    &__shape {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 115%;
+        height: 136%;
+
+        @media only screen and (max-width: $bp-large) {
+            display: none;
+        }
+    }
+
+    //MOBILE SHAPE
+    &__shape-mobile {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+
+        @media only screen and (min-width: $bp-large) {
+            display: none;
+        }
+    }
+
+    &__farClouds {
+        opacity: 0;
+        position: absolute;
+        top: 30%;
+        right: 5%;
+        width: 86%;
+        transform: translateX(0);
+
+        animation: sidewaysFar 8s ease-in-out infinite,
+                    appearOpacity .6s ease forwards .9s;
+
+        @media only screen and (max-width: $bp-large) {
+                top: 20%;
+                left: 3%;
+                transform: translateX(-50%) translateY(0);
+        }
+    }
+
+    &__farRubble {
+        opacity: 0;
+        position: absolute;
+        top: 30%;
+        right: 12%;
+        width: 81%;
+        transform: translateY(0);
+
+        animation: floatFar 5s ease-in-out infinite reverse,
+                    appearOpacity .6s ease forwards .8s;
+
+        @media only screen and (max-width: $bp-large) {
+            top: 25%;
+            left: 10%;
+            transform: translateX(-50%) translateY(0);
+        }
+    }
+
+    &__nearClouds {
+        opacity: 0;
+        position: absolute;
+        top: 16%;
+        right: 15%;
+        width: 83%;
+        transform: translateX(0);
+
+        animation: sidewaysNear 5.5s ease-in-out infinite,
+                    appearOpacity .6s ease forwards .5s;
+
+        @media only screen and (max-width: $bp-large) {
+            top: 36%;
+            left: 12%;
+            transform: translateX(-50%) translateY(0);
+            opacity: 0.8;
+        }
+    }
+
+    &__midRubble {
+        opacity: 0;
+        position: absolute;
+        top: 40%;
+        right: 1rem;
+        width: 90%;
+        transform: translateY(0);
+
+        animation: floatMid 6s ease-in-out infinite reverse,
+                    appearOpacity .6s ease forwards .3s;
+
+        @media only screen and (max-width: $bp-large) {
+            top: 44%;
+            left: 8%;
+            opacity: .7;
+            transform: translateX(-50%) translateY(0);
+        }
+    }
+
+    &__nearRubble {
+        opacity: 0;
+        position: absolute;
+        top: 66%;
+        right: 15%;
+        width: 90%;
+        transform: translateY(0);
+
+        animation: floatNear 3.25s ease-in-out infinite,
+                    appearOpacity .6s ease forwards;
+
+        @media only screen and (max-width: $bp-large) {
+            width: 100%;
+            left: 50%;
+            transform: translateX(-50%) translateY(0);
+            animation: floatNearMobile 3.25s ease-in-out infinite,
+                        appearOpacity .6s ease forwards;
+        }
+    }
+
+    //CIRCLES AND PEN BOX
+    &__circlesPenBox {
+        width: 35rem;
+        height: 35rem;
+        position: relative;
+        top: 28%;
+        left: 21%;
+
+        @media only screen and (max-width: $bp-large) {
+            width: 20rem;
+            height: 20rem;
+            top: 62%;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+    &__spinningOuter {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50% , -50%) rotate(0);
+        width: 102%;
+
+        animation: spin 69s infinite linear;
+    }
+    &__spinningMid {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50% , -50%) rotate(0);
+        width: 91%;
+
+        animation: spin 55s infinite linear;
+    }
+    &__spinningInner {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50% , -50%) rotate(0);
+        width: 84%;
+
+        animation: spin 27s infinite linear;
+    }
+
+    &__penTool {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50% , -50%);
+        width: 30%;
+        transition: width .3s;
+    }
+    #pointer {
+        transform-origin: center;
+    }
+}
+
+
+// ABOUT SECTION
+
+#section-about {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 -2rem 2rem rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 6;
+}
+.about-container {
+    height: 100vh;
+    margin: 0 12rem;
+    margin-top: 20rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @media only screen and (max-width: $bp-large) {
+        height: 100vh;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    @media only screen and (max-width: $bp-small) {
+        margin: 0 6rem;
+        margin-top: 20rem;
+    }
+}
+
+.about-illustrations {
+    width: 50rem;
+    height: 60rem;
+    position: relative;
+
+    @media only screen and (max-width: $bp-large) {
+        width: 57rem;
+        height: 57rem;
+    }
+
+    &__shape {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translate(0%, -50%);
+        width: 85%;
+
+        @media only screen and (max-width: $bp-large) {
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+    &__farClouds {
+        position: absolute;
+        top: 50%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+        width: 70%;
+        animation: sidewaysAbout 7s ease-in-out infinite;
+
+        @media only screen and (max-width: $bp-large) {
+            left: 50%;
+        }
+    }
+    &__illustration {
+        position: absolute;
+        top: 50%;
+        left: 45%;
+        transform: translate(-50%, -50%);
+        width: 30%;
+
+        @media only screen and (max-width: $bp-large) {
+            left: 50%;
+        }
+    }
+    #myIllustrationCircularAbout {
+        width: 100%;
+    }
+    .myIllustrationBackgroundAbout {
+        animation: colorPulse 2.5s ease-in-out infinite;
+    }
+
+    &__nearClouds {
+        position: absolute;
+        top: 50%;
+        left: 40%;
+        transform: translate(-50%, -50%);
+        width: 62%;
+        animation: sidewaysAbout 4s ease-in-out infinite;
+    }
+
+    &__allBoxesContainer {
+        position: relative;
+        width: 53rem;
+        height: 63rem;
+        left: 44%;
+        transform: translateX(-50%);
+
+        @media only screen and (max-width: $bp-large) {
+            left: 50%;
+            width: 60rem;
+            height: 69rem;
+            transform: translateX(-50%) translateY(-5%);
+        }
+    }
+
+    &__box-links {
+        line-height: 0;
+        text-decoration: none;
+        width: 15%;
+        height: 13%;
+        position: absolute;
+        border-radius: 1rem;
+        background-color: var(--neon-blue);
+    }
+    &__boxes {
+        animation: slightFloat 2.5s ease-in-out infinite;
+        transition: all .4s ease-in-out;
+
+        &--facebook {
+            top: 32%;
+            left: 10%;
+
+            &:hover {
+                background-color: #3b5998;
+                border: .1rem solid white;
+
+                .logo-color {
+                    transition: all .4s;
+                    fill: white;
+                }
+            }
+        }
+
+        &--linkedIn {
+            top: 16%;
+            left: 42%;
+
+            &:hover {
+                background-color: #0e76a8;
+                border: .1rem solid white;
+
+                .logo-color {
+                    transition: all .4s;
+                    fill: white;
+                }
+            }
+        }
+
+        &--gitHub {
+            top: 35%;
+            left: 73%;
+
+            &:hover {
+                background-color: #111;
+                border: .1rem solid white;
+
+                .logo-color {
+                    transition: all .4s;
+                    fill: white;
+                }
+            }
+        }
+
+        &--dribble {
+            top: 60%;
+            left: 62%;
+
+            &:hover {
+                background-color: #ea4c89;
+                border: .1rem solid white;
+
+                .logo-color {
+                    transition: all .4s;
+                    fill: rgb(15, 0, 5);
+                }
+            }
+        }
+
+        &--insta {
+            top: 60%;
+            left: 20%;
+
+            &:hover {
+                background-color: #ff004c;
+                border: .1rem solid white;
+
+                .logo-color {
+                    transition: all .4s;
+                    fill: rgb(255, 255, 255);
+                }
+            }
+        }
+
+        &:hover {
+            animation: enlargeSize .3s forwards;
+        }
+        &:active {
+            animation: reduceSize .2s forwards;
+        }
+
+    }
+
+    &__icons {
+
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        &--facebook {
+            width: 25%;
+        }
+        #fbIcon {
+            width: 100%;
+        }
+
+        &--linkedIn {
+            width: 45%;
+        }
+        #linkedinIcon {
+            width: 100%;
+        }
+
+        &--gitHub {
+            width: 65%;
+        }
+        #githubIcon {
+            width: 100%;
+        }
+
+        &--dribble {
+            width: 65%;
+        }
+        #dribbleIcon {
+            width: 100%;
+        }
+
+        &--insta {
+            width: 65%;
+        }
+        #instaIcon {
+            width: 100%;
+        }
+    }
+}
+
+.about-text {
+    position: relative;
+    z-index: 4;
+
+    &__header {
+
+        @media only screen and (max-width: $bp-large) {
+            font-size: 7rem;
+        }
+    }
+    &__text {
+        width: 100%;
+
+        @media only screen and (max-width: $bp-large) {
+            font-size: 2.5rem;
+        }
+    }
+}
+
+
+
+// SKILLS SECTION
+
+#section-skills {
+    position: relative;
+    z-index: 6;
+    margin-bottom: 15rem;
+    padding: 20rem 0;
+    clip-path: polygon(0 12%, 100% 0%, 100% 88%, 0% 100%);
+    background-image: linear-gradient(to bottom, rgb(24, 24, 24), #0b0020);
+    box-shadow: inset 0 0 5rem #000000b0;
+
+    @media only screen and (max-width: $bp-large) {
+        margin-top: 30rem;
+        padding: 25rem 0;
+        clip-path: polygon(0 12%, 100% 7%, 100% 88%, 0% 93%);
+    }
+    @media only screen and (width: $bp-568) {
+        margin-top: 15rem;
+    }
+    @media only screen and (width: $bp-600) {
+        margin-top: 10rem;
+    }
+    @media only screen and (width: $bp-640) {
+        margin-top: 10rem;
+    }
+    @media only screen and (width: $bp-653) {
+        margin-top: 70rem;
+    }
+    @media only screen and (width: $bp-667) {
+        margin-top: 10rem;
+    }
+    @media only screen and (width: $bp-731) {
+        margin-top: 10rem;
+    }
+    @media only screen and (width: $bp-736) {
+        margin-top: 10rem;
+    }
+    @media only screen and (width: $bp-812) {
+        margin-top: 13rem;
+    }
+    @media only screen and (width: $bp-823) {
+        margin-top: 10rem;
+    }
+}
+//Side Shape And Rock - Design
+.design-shape {
+    position: absolute;
+    left: 0;
+    top: 1%;
+    width: 13%;
+}
+//In Body
+.design-rock {
+    margin-left: 89vw;
+    position: relative;
+    z-index: 1;
+    width: 10%;
+    animation: floatSkills1 3s ease-in-out infinite;
+}
+
+// DESIGN
+.design {
+    margin: 0 12rem;
+
+    display: flex;
+    justify-content: space-between;
+
+    @media only screen and (max-width: $bp-large) {
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin: 0 8rem;
+    }
+
+    //Main Illustrations- Box
+    &__mainIllustrations {
+        position: relative;
+        height: 100%;
+        width: 100%;
+
+        flex: 0 0 45%;
+
+        @media only screen and (max-width: $bp-large) {
+            flex: none;
+        }
+    }
+    &__allIllustrationsBox {
+        position: relative;
+        width: 20rem;
+        height: 20rem;
+        left: 25%;
+        transform: translateY(2rem);
+        margin-right: 15rem;
+
+        @media only screen and (max-width: $bp-large) {
+            left: 50%;
+            margin-right: 0;
+            transform: translate(-68%, 0);
+            width: 22rem;
+            height: 22rem;
+        }
+    }
+
+    &__aiBox {
+        position: absolute;
+        width: 25%;
+        top: 0%;
+        left: 50%;
+        animation: slightFloat 3.5s ease-in-out infinite;
+    }
+    &__psBox {
+        position: absolute;
+        width: 35%;
+        top: 0%;
+        left: 80%;
+        animation: slightFloat 2.5s ease-in-out infinite;
+    }
+    &__paint {
+        position: absolute;
+        width: 30%;
+        top: 45%;
+        left: 0%;
+        animation: sizePulse 3s ease-in-out infinite;
+    }
+    &__penPath {
+        position: absolute;
+        width: 95%;
+        top: 62%;
+        left: 21%;
+    }
+    &__penTool {
+        position: absolute;
+        width: 65%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        animation: spinBackForth 4s ease-in-out infinite;
+    }
+
+    //Design TEXT
+    &__writings {
+        margin-right: 10%;
+
+        @media only screen and (max-width: $bp-large) {
+            margin-right: 0;
+            margin-top: 12rem;
+        }
+    }
+    
+    &__header {
+        color: var(--neon-blue);
+        font-size: 4rem;
+
+        @media only screen and (max-width: $bp-large) {
+            font-size: 7rem;
+        }
+    }
+    &__text {
+        color: #fff;
+        font-size: 1.8rem;
+        letter-spacing: .1rem;
+
+        @media only screen and (max-width: $bp-large) {
+            font-size: 2.5rem;
+        }
+    }
+}
+
+
+
+// DEVELOP
+//Side Shape And Rock - Develop
+.develop-shape {
+    position: absolute;
+    right: 0;
+    bottom: 1%;
+    width: 13%;
+}
+//In Body
+.develop-rock {
+    width: 10%;
+    animation: floatSkills2 3s ease-in-out infinite;
+}
+
+// DEVELOP
+.develop {
+    margin: 0 12rem;
+    margin-top: 12rem;
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+
+    @media only screen and (max-width: $bp-large) {
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin: 0 8rem;
+        margin-top: 20rem;
+    }
+    @media only screen and (width: $bp-568) {
+        margin-top: 5rem;
+    }
+    @media only screen and (width: $bp-600) {
+        margin-top: 5rem;
+    }
+    @media only screen and (width: $bp-640) {
+        margin-top: 5rem;
+    }
+    @media only screen and (width: $bp-653) {
+        margin-top: 5rem;
+    }
+    @media only screen and (width: $bp-667) {
+        margin-top: 5rem;
+    }
+    @media only screen and (width: $bp-731) {
+        margin-top: 5rem;
+    }
+    @media only screen and (width: $bp-736) {
+        margin-top: 5rem;
+    }
+    @media only screen and (width: $bp-812) {
+        margin-top: 5rem;
+    }
+    @media only screen and (width: $bp-823) {
+        margin-top: 5rem;
+    }
+
+    //Main Illustrations- Box
+    &__mainIllustrations {
+        position: relative;
+        height: 100%;
+        width: 100%;
+
+        flex: 0 0 45%;
+
+        @media only screen and (max-width: $bp-large) {
+            flex: none;
+        }
+    }
+    &__allIllustrationsBox {
+        position: relative;
+        width: 20rem;
+        height: 20rem;
+        left: 30%;
+        transform: translateY(3.5rem);
+
+        @media only screen and (max-width: $bp-large) {
+            left: 50%;
+            margin-right: 0;
+            transform: translate(-50%, 0);
+            width: 22rem;
+            height: 22rem;
+        }
+    }
+
+    &__spinningOuterSkills {
+        position: absolute;
+        width: 130%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        animation: spin 20s linear infinite;
+    }
+    &__spinningMidSkills {
+        position: absolute;
+        width: 117%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        animation: spin 7s linear infinite;
+    }
+    &__spinningInnerSkills {
+        position: absolute;
+        width: 106%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        animation: spin 18s linear infinite;
+    }
+
+    &__laptop {
+        position: absolute;
+        width: 60%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    &__screenAnimLeft {
+        position: absolute;
+        width: 16%;
+        top: 43%;
+        left: 25%;
+        transform: translate(-50%, -50%);
+        animation: sidewaysSlight 2.5s ease-in-out infinite;
+    }
+    &__screenAnimRight {
+        position: absolute;
+        width: 20%;
+        top: 50%;
+        left: 73%;
+        transform: translate(-50%, -50%);
+        animation: sidewaysSlight 2.5s ease-in-out infinite;
+    }
+
+    //Develop TEXT
+    &__writings {
+        margin-left: 12%;
+
+        @media only screen and (max-width: $bp-large) {
+            margin-left: 0;
+            margin-top: 7rem;
+        }
+    }
+    &__header {
+        color: var(--neon-blue);
+        font-size: 4rem;
+
+        @media only screen and (max-width: $bp-large) {
+            font-size: 7rem;
+        }
+    }
+    &__text {
+        color: #fff;
+        font-size: 1.8rem;
+        letter-spacing: .1rem;
+
+        @media only screen and (max-width: $bp-large) {
+            font-size: 2.5rem;
+        }
+    }
+}
+
+
+
+// CONTACTS SECTION
+.sectionContactsDiv {
+    padding-bottom: 20rem;
+    position: relative;
+
+    @media only screen and (max-width: $bp-large) {
+        padding-bottom: 30rem;
+    }
+
+    &__meteors {
+        display: none;
+        position: absolute;
+        top: -400%;
+        right: -33%;
+        width: 45rem;
+
+        animation: meteors 4s linear infinite;
+
+        @media only screen and (max-width: $bp-large) {
+            right: -50%;
+        }
+    }
+}
+#section-contacts {
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: 0 12rem;
+    padding-bottom: 10rem;
+    padding-top: 0;
+
+    @media only screen and (max-width: $bp-large) {
+        padding: 0 5rem;
+        padding-bottom: 10rem;
+    }
+}
+
+.contact {
+    text-align: center;
+    position: relative;
+
+    &__allShapesBox {
+        position: relative;
+    }
+    &__triangle {
+        position: absolute;
+        top: 1rem;
+        left: -8%;
+        width: 25%;
+        animation: spin2 25s linear infinite;
+
+        @media only screen and (max-width: $bp-large) {
+            left: 0;
+        }
+    }
+    &__smallCircle {
+        position: absolute;
+        top: 4%;
+        left: 25%;
+        width: 4%;
+        animation: sidewaysNear 5s ease-in-out infinite;
+    }
+    &__bigCircle {
+        position: absolute;
+        bottom: -15%;
+        right: 28%;
+        width: 8%;
+        animation: sidewaysFar 5s ease-in-out infinite;
+    }
+    &__square {
+        position: absolute;
+        top: -2rem;
+        right: -9%;
+        width: 25%;
+        animation: spin2 25s linear infinite;
+
+        @media only screen and (max-width: $bp-large) {
+            right: 0;
+        }
+    }
+
+    &__header {
+        
+        @media only screen and (max-width: $bp-large) {
+            font-size: 7rem;
+        }
+    }
+    &__text {
+        margin: 0 30rem;
+
+        @media only screen and (max-width: $bp-large) {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+    }
+}
+
+.freelance {
+    text-align: center;
+    margin-top: 10rem;
+
+    @media only screen and (max-width: $bp-mid) {
+        margin-top: 10rem;
+    }
+
+    &__header {
+        font-size: 3.75rem;
+
+        @media only screen and (max-width: $bp-large) {
+            font-size: 5rem;
+        }
+    }
+    &__text {
+        margin-top: 1rem;
+
+        @media only screen and (max-width: $bp-large) {
+            font-size: 2.5rem;
+        }
+    }
+
+
+    &__cards-container {
+        
+        display: flex;
+        justify-content: space-between;
+        margin-top: 7rem;
+
+        @media only screen and (max-width: $bp-large) {
+            flex-direction: column;
+        }
+
+        &-overall {
+            position: relative;
+            width: 38rem;
+            height: 30rem;
+            border-radius: 4rem;
+            background-color: hsla(262, 100%, 5%, 0.95);
+
+            @media only screen and (max-width: $bp-large) {
+                width: 48rem;
+                height: 37rem;
+            }
+        }
+
+        &-allButtons {
+            font-weight: 400;
+            border-radius: 5rem;
+            top: 60%;
+        }
+
+        &--1 {
+            margin-left: 10%;
+            margin-right: 2.5%;
+
+            @media only screen and (max-width: $bp-large) {
+                margin: auto;
+            }
+
+            &--freelancer-logo {
+                position: absolute;
+                left: 50%;
+                top: 15%;
+                width: 60%;
+                transform: translateX(-50%);
+            }
+            #freelancerLogo {
+                width: 100%;
+            }
+            .freelancer-logo-color {
+                fill: var(--color-freelancer);
+            }
+
+            &--btn-freelancer {
+                color: var(--color-freelancer);
+                border: .1rem solid var(--color-freelancer);
+            }
+            &--btn-freelancer:hover {
+                color: var(--dark-blue);
+                background-color: var(--color-freelancer);
+                letter-spacing: .3rem;
+            }
+            &--btn-freelancer:active {
+                color: rgb(75, 75, 75);
+                background-color: #7bfbff;
+                letter-spacing: .1rem;
+            }
+        }
+        &--2 {
+            margin-right: 10%;
+            margin-left: 2.5%;
+
+            @media only screen and (max-width: $bp-large) {
+                margin: auto;
+                margin-top: 5rem;
+            }
+
+            &--fiverr-logo {
+                position: absolute;
+                left: 50%;
+                top: 15%;
+                width: 45%;
+                transform: translateX(-50%);
+            }
+            #fiverrLogo {
+                width: 100%;
+            }
+            .fiverr-logo-color {
+                fill: var(--color-fiverr);
+            }
+
+            &--btn-fiverr {
+                color: var(--color-fiverr);
+                border: .1rem solid var(--color-fiverr);
+            }
+            &--btn-fiverr:hover {
+                color: var(--dark-blue);
+                background-color: var(--color-fiverr);
+                letter-spacing: .3rem;
+            }
+            &--btn-fiverr:active {
+                color: rgb(75, 75, 75);
+                background-color: #7bffdc;
+                letter-spacing: .1rem;
+            }
+        }
+    }
+}

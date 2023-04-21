@@ -1,0 +1,11 @@
+<svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" width="556" height="702.03" viewBox="0 0 556 702.03">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #060011;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="footerShape_near-mobile" class="cls-1" d="M40.639,4524.98v104.29H65.59v-65.74H79.069v112.69h31.26v-62.77h20.649v-29.66h54.777v116.65h8.317v-66.73h6.022v74.14h14.053v-96.87h37v68.21h70.263V4564.52h64.815v77.1h40.724V4534.86h36.422v157.67h17.781v-80.56H517v48.93h7.743V4529.92H556V5227H0l0.2-702.02H40.639Z" transform="translate(0 -4524.97)"/>
+</svg>
