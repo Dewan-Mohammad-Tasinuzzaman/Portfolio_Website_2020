@@ -1,6 +1,7 @@
 # Portfolio Website - 01
 
 The first portfolio website I created for myself using advanced CSS, SCSS.
+View live here: <a href="https://dewan-mohammad-tasinuzzaman.github.io/Portfolio_Website_01/">Portfolio Website</a>
 
 ## Project setup
 ```
