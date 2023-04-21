@@ -1,4 +1,6 @@
-# First Portfolio Website
+# Portfolio Website - 01
+
+The first portfolio website I created for myself using advanced CSS, SCSS.
 
 ## Project setup
 ```
