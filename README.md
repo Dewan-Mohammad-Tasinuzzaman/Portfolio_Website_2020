@@ -19,5 +19,5 @@ npm run build:css
 ```
 
 ## Pictures:
-<img src="https://raw.githubusercontent.com/Dewan-Mohammad-Tasinuzzaman/Portfolio_Website_01/main/Capture-01.png">
 <img src="https://raw.githubusercontent.com/Dewan-Mohammad-Tasinuzzaman/Portfolio_Website_01/main/Capture-02.jpg">
+<img src="https://raw.githubusercontent.com/Dewan-Mohammad-Tasinuzzaman/Portfolio_Website_01/main/Capture-01.png">
